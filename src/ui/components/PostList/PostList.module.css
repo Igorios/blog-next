@@ -1,0 +1,46 @@
+.postList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style-type: none;
+    margin: 0;
+    margin:  16px auto;
+    max-width: 1024px;
+}
+
+.postListItem {
+    padding: 16px;
+    max-width: 320px;
+    border-radius: 10px;
+    color: var(--text-secondy);
+    box-shadow: 0 1px 3px var(--shadow);
+}
+
+.postListItem:hover {
+    transform: scale(1.01)
+}
+
+.postTitle {
+    margin: 0;
+    font-size: 20px;
+    color: var(--primary);
+}
+
+.postLink {
+    text-decoration: none;
+}
+
+.description {
+    color: #000000;
+}
+
+@media (max-width: 700px) {
+    .postListItem {
+        max-width: 100%;
+    }
+}
+
+.postPicture {
+    width: 100%;
+
+}
